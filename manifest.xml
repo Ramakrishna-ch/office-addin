@@ -49,7 +49,7 @@
           <FunctionFile resid="Commands.Url"/>          
           <ExtensionPoint xsi:type="LaunchEvent">
           <LaunchEvents>
-          <LaunchEvent Type="OnMessageSend" FunctionName="validateBody" SendMode="SoftBlock"/>
+          <LaunchEvent Type="OnMessageSend" FunctionName="validateBody" SendMode="PromptUser"/>
           </LaunchEvents>
           <SourceLocation resid="WebViewRuntime"/>
 
