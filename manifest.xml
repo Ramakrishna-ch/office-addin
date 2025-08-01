@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides" xsi:type="MailApp">
   <Id>8cb6f061-4732-4a2b-b39f-a29f432ec8aa</Id>
-  <Version>1.0.0.1</Version>
+  <Version>1.0.0.3</Version>
   <ProviderName>Manageengine</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="dsp addin"/>
+  <DisplayName DefaultValue="dsp addin2"/>
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://ramakrishna-ch.github.io/office-addin/assets/icon-64.png" />
   <HighResolutionIconUrl DefaultValue="https://ramakrishna-ch.github.io/office-addin/assets/icon-128.png" />

@@ -27,5 +27,3 @@ function checkBodyOnlyOnSend(asyncResult){
         asyncResult.asyncContext.completed({allowEvent: true});
     }
 }
-
-Office.actions.associate("validateBody", validateBody);
