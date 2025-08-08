@@ -11,7 +11,7 @@ Office.onReady(() => {
 
 var mailboxItem;
 
-function operatingSytem() {
+function operatingSytem() { 
     var contextInfo = Office.context.diagnostics;
     console.log('Office application: ' + contextInfo.host);
     console.log('Platform: ' + contextInfo.platform);
