@@ -40,7 +40,7 @@ function validateBody(event){
 function checkBodyOnlyOnSend(asyncResult){
     var bodyContent = asyncResult.value;
     console.log("body output:", bodyContent);
-    
+    dspAgentserverCheck();
     if(bodyContent.includes("block")){
         mailboxItem.notificationMessages.addAsync('NoSend', {type: 'errorMessage', message: 'Mail is Blocked'});
         asyncResult.asyncContext.completed({allowEvent: false});
